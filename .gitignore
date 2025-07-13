@@ -61,7 +61,3 @@ coverage.xml
 nosetests.xml
 test-output/
 
-.gitignore
-.gitattributes
-
-
