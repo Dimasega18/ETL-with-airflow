@@ -27,8 +27,8 @@ dag = DAG(dag_id ='csv_dag',
           default_args = default_args, 
           catchup = False,
           schedule = None,
-          max_active_runs = 1, #BIAR DAG GA SELAP SELIP
-          max_active_tasks = 2  #MAKS TASKS PARALLEL 2
+          max_active_runs = 1, 
+          max_active_tasks = 2 
           )
 
 task_1 = PythonOperator(
