@@ -2,25 +2,14 @@
 
 Project ini berisi pipeline ETL menggunakan **Apache Airflow**, serta dilengkapi dengan pengujian menggunakan **pytest**, dan dijalankan dalam **Docker** environment.
 
-## 📁 Struktur Folder
-.
-├── dags/ # Berisi DAG Airflow
-│ ├── etl_pipeline.py
-│ └── utils.py # Fungsi extract, transform, load
-├── docker-compose.yml # File Docker untuk menjalankan Airflow
-├── airflow.cfg # Konfigurasi Airflow (jika tidak menggunakan Docker)
-├── requirements.txt # Daftar dependencies
-├── tests/ # Folder test pytest
-│ └── test_etl.py
-├── .gitignore
-└── README.md
-
 ## 🚀 Menjalankan dengan Docker
 
-Pastikan Docker dan Docker Compose telah terinstal.
+Pastikan kamu sudah menginstal **Docker** dan **Docker Compose**.
+Jalankan perintah berikut untuk membangun dan menjalankan Airflow:
 
 ```bash
 docker-compose up --build
+```
 
 ## 🧪 Menjalankan Unit Test
 
