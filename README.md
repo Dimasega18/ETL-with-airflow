@@ -20,7 +20,7 @@ pip install pytest
 Lalu jalankan:
 
 ```bash
-pip install pytest
+pytest
 ```
 
 ## ⚙️ Tools yang Digunakan
