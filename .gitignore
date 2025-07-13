@@ -1,0 +1,65 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#admin
+pgadmin-data/
+
+#logs
+logs/
+
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+.env
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Airflow
+airflow.db
+airflow.cfg
+unittests.cfg
+logs/
+dags/__pycache__/
+.astro/
+.venv/
+tmp/
+
+# Docker
+*.pid
+docker-compose.override.yml
+.env.docker
+
+# SQLite & other db
+*.db
+*.sqlite3
+
+# Pytest
+.cache/
+.pytest_cache/
+htmlcov/
+coverage.xml
+nosetests.xml
+test-output/
+
+
+
